@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "paths": {
+    "/GET": {
+      "name": "/GET",
+      "lambdaFunction": "newApiGetReqeust",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}

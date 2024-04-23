@@ -1,1 +1,64 @@
-{}
+{
+  "api": {
+    "getAPI": {
+      "dependsOn": [
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "newApiGetReqeust"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "API Gateway"
+    }
+  },
+  "function": {
+    "appwithbackendaa200de8": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "newApiGetReqeust": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_function_appwithbackendaa200de8_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "appwithbackendaa200de8"
+        }
+      ]
+    },
+    "AMPLIFY_function_appwithbackendaa200de8_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "appwithbackendaa200de8"
+        }
+      ]
+    },
+    "AMPLIFY_function_newApiGetReqeust_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "newApiGetReqeust"
+        }
+      ]
+    },
+    "AMPLIFY_function_newApiGetReqeust_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "newApiGetReqeust"
+        }
+      ]
+    }
+  }
+}

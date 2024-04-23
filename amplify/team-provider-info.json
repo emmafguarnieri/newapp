@@ -10,6 +10,21 @@
       "StackName": "amplify-appwithbackend-dev-744c0",
       "StackId": "arn:aws:cloudformation:us-east-2:851725617016:stack/amplify-appwithbackend-dev-744c0/768fa8f0-00e2-11ef-a6dd-02e1f5d39219",
       "AmplifyAppId": "d3792ctks5phwk"
+    },
+    "categories": {
+      "function": {
+        "appwithbackendaa200de8": {
+          "deploymentBucketName": "amplify-appwithbackend-dev-744c0-deployment",
+          "s3Key": "amplify-builds/appwithbackendaa200de8-4e3669743844746d6531-build.zip"
+        },
+        "newApiGetReqeust": {
+          "deploymentBucketName": "amplify-appwithbackend-dev-744c0-deployment",
+          "s3Key": "amplify-builds/newApiGetReqeust-74664c53705771794a51-build.zip"
+        }
+      },
+      "api": {
+        "getAPI": {}
+      }
     }
   }
 }
