@@ -1,5 +1,29 @@
 {
   "api": {},
-  "function": {},
-  "hosting": {}
+  "function": {
+    "getLambda": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  },
+  "hosting": {},
+  "parameters": {
+    "AMPLIFY_function_getLambda_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "getLambda"
+        }
+      ]
+    },
+    "AMPLIFY_function_getLambda_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "getLambda"
+        }
+      ]
+    }
+  }
 }
