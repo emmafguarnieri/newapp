@@ -16,34 +16,14 @@
     }
   },
   "function": {
-    "appwithbackendaa200de8": {
-      "build": true,
-      "providerPlugin": "awscloudformation",
-      "service": "Lambda"
-    },
     "newApiGetReqeust": {
       "build": true,
       "providerPlugin": "awscloudformation",
       "service": "Lambda"
     }
   },
+  "hosting": {},
   "parameters": {
-    "AMPLIFY_function_appwithbackendaa200de8_deploymentBucketName": {
-      "usedBy": [
-        {
-          "category": "function",
-          "resourceName": "appwithbackendaa200de8"
-        }
-      ]
-    },
-    "AMPLIFY_function_appwithbackendaa200de8_s3Key": {
-      "usedBy": [
-        {
-          "category": "function",
-          "resourceName": "appwithbackendaa200de8"
-        }
-      ]
-    },
     "AMPLIFY_function_newApiGetReqeust_deploymentBucketName": {
       "usedBy": [
         {

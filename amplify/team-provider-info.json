@@ -13,13 +13,9 @@
     },
     "categories": {
       "function": {
-        "appwithbackendaa200de8": {
-          "deploymentBucketName": "amplify-appwithbackend-dev-744c0-deployment",
-          "s3Key": "amplify-builds/appwithbackendaa200de8-4e3669743844746d6531-build.zip"
-        },
         "newApiGetReqeust": {
           "deploymentBucketName": "amplify-appwithbackend-dev-744c0-deployment",
-          "s3Key": "amplify-builds/newApiGetReqeust-74664c53705771794a51-build.zip"
+          "s3Key": "amplify-builds/newApiGetReqeust-55566971776f746c7557-build.zip"
         }
       },
       "api": {
